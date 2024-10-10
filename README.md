@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
 
 
 **2. Install dependencies:**
-    npm install
+   npm install whatsapp-web.js discord.js
 
 **3. Set up your Discord bot:**
     Create a new application on the Discord Developer Portal.
@@ -35,9 +35,12 @@ Before you begin, ensure you have the following installed:
     Copy the bot token for use in the .env file.
 
 **4. Set up WhatsApp:**
-    DISCORD_TOKEN=your_discord_bot_token
+   Use whatsapp-web.js to set up WhatsApp Web and link it with your bot.
 
-**5. Run the bot:**
+**5. Create a .env file: Create a .env file in the root of your project and add the following:**
+   DISCORD_TOKEN=your_discord_bot_token
+
+**6. Run the bot:**
     node wubbachat.js
 
 
